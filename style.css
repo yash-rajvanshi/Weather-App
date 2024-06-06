@@ -110,6 +110,7 @@ h2{
     .search input{
         padding: 10px 10px;
         margin-right: 8px;
+        width:200px;
     }
 
     .card{
