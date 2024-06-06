@@ -89,6 +89,12 @@ async function checkWeather(city){
 searchBtn.addEventListener("click", ()=>{
     checkWeather(searchBox.value);
 })
+let input = document.querySelector('input');
+input.addEventListener ('keyup', (e) => {
+    if(e.keyCode === 13){
+        checkWeather(searchBox.value);
+    }
+})
 
 </script>
     
